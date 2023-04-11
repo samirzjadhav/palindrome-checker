@@ -48,19 +48,22 @@ header p {
 }
 
 .inputs input:focus {
-  box-shadow: 0;
+  box-shadow: 0 3px 3px 6px rgba(0, 0, 0, 0.15);
 }
+
 .inputs button {
   width: 100%;
+  opacity: 0.7;
   height: 56px;
   outline: 0;
-  border: 0;
+  border: none;
   cursor: pointer;
   margin-top: 20px;
   font-size: 17px;
   color: #fff;
   border-radius: 5px;
-  background: #352651;
+  pointer-events: none;
+  background-color: #352651;
 }
 
 .info-text {
